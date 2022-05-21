@@ -1,4 +1,4 @@
-# Sports-Persons-Classifier-
+# Sports-Persons-Classifier
 **Working:**
 - Image we give to the UI gets sent to the back end that is the flask server where our function "classify_image" uses our saved ML pickle model from artifacts folder.
 - Model trained using Support Vector Classifier.
