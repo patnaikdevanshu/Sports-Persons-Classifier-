@@ -1,0 +1,66 @@
+.card-wrapper {
+  margin: 0 auto;
+  }
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 7vw; /* note i used vw not px for better responsive */
+  height: 7vw;
+}
+
+#body{
+  .h2 {
+  font-size: 2.5vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+
+}
+}
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 0.1px
+}
+
+.card-text {
+  /* background: gold linear-gradient(to bottom, lightyellow, gold); */
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Person Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <h2 style="color:rgb(3, 3, 78)", align="center">
+        <a>Sports Person Classifier</a>
+    </h2>
+
+    <div class="container">
+        <div class=" row ">
+            <div class=" row card-wrapper" data-player="cristiano_ronaldo">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/ronaldo.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Cristiano Ronaldo</h4>
+                            </p>
+                        </div>
+                    </div>
+            <div class=" row card-wrapper" data-player="khabib_nurmagomedov">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/khabib.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Khabib</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+            <div class=" row card-wrapper" data-player="lionel_messi">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/messi.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Lionel Messi</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+                <div class=" row card-wrapper" data-player="maria_sharapova">
+                        <div class >
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img class="w-100 h-100" src="./images/maria.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body text-center ">
+                                <h4 class="text-uppercase card-title">Maria Sharapova</h4>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class=" row card-wrapper" data-player="ms_dhoni">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/dhoni.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">MS Dhoni</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+                <div class=" row card-wrapper" data-player="roger_federer">
+                        <div class >
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img class="w-100 h-100" src="./images/roger.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card-body text-center ">
+                                <h4 class="text-uppercase card-title">Roger Federer</h4>
+                                </p>
+                            </div>
+                        </div>
+                </div> 
+                <div class=" row card-wrapper" data-player="saina_nehwal">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/saina.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Saina Nehwal</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>         
+
+                <div class=" row card-wrapper" data-player="serena_williams">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/serena.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Serena Williams</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class=" row card-wrapper" data-player="tiger_woods">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/tiger.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Tiger Woods</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>     
+                
+                <div class=" row card-wrapper" data-player="virat_kohli">
+                    <div class >
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/virat.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h4 class="text-uppercase card-title">Virat Kohli</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+            </div>
+            <div class="col-sm-4" id="divClassTable">
+                <table id="classTable">
+                        <tr>
+                            <th>Player</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Cristiano Ronaldo</td>
+                            <td id="score_cristiano_ronaldo"></td>
+                        </tr>
+                        <tr>
+                            <td>Khabib Nurmagomedov</td>
+                            <td id="score_khabib_nurmagomedov"></td>
+                        </tr>
+                        <tr>
+                            <td>Lionel Messi</td>
+                            <td id="score_lionel_messi"></td>
+                        </tr>
+                        <tr>
+                            <td>Maria Sharapova</td>
+                            <td id="score_maria_sharapova"></td>
+                        </tr>
+                        <tr>
+                            <td>M S Dhoni</td>
+                            <td id="score_ms_dhoni"></td>
+                        </tr>
+                        <tr>
+                            <td>Rodger Federer</td>
+                            <td id="score_roger_federer"></td>
+                        </tr>
+                        <tr>
+                            <td>Saina Nehwal</td>
+                            <td id="score_saina_nehwal"></td>
+                        </tr>
+                        <tr>
+                            <td>Serena Williams</td>
+                            <td id="score_serena_williams"></td>
+                        </tr>
+                        <tr>
+                            <td>Tiger Woods</td>
+                            <td id="score_tiger_woods"></td>
+                        </tr>
+                        <tr>
+                            <td>Virat Kohli</td>
+                            <td id="score_virat_kohli"></td>
+                        </tr>
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
