@@ -8,6 +8,10 @@
 - We will use cropped image and apply wavelet transform to extract meaning features that can help with image identification.
 - The wavelet transform image and raw pixel image is vertically stacked and the combined image is used to  classify the image.
 
+![image](https://user-images.githubusercontent.com/71730642/190446744-2fbe332e-bb83-4940-8570-113dc43eccf5.png)
+![image](https://user-images.githubusercontent.com/71730642/190479999-36ddd8cd-8a22-4d77-ac47-33d2a97e07ea.png)
+
+
 **Future Scope/ Way Forward:**
 - use deep learning algorithms like CNN or GAN for better accuracy
 - Increase the dataset toy improve the usability of the model.
